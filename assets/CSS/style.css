@@ -8,6 +8,44 @@ body{
     overflow: visible;
 }
 
+.fluffle{
+    border: thin solid black;
+    background-color: lawngreen;
+    width: 25px;
+    height: 20px;
+    border-radius: 100%;
+    position: relative;
+    margin: auto;
+    top: -15px;
+    
+}
+
+.hat{
+    border: thin solid black;
+    background-color: blanchedalmond;
+    width: 80px;
+    height: 40px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    position: absolute;
+    top: -30px;
+    left: 20px;
+}
+
+.rim{
+    border: thin solid black;
+    background-color: blanchedalmond;
+    width: 110px;
+    height: 25px;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    position: relative;
+    top: 5px;
+    left: -15px;
+}
+
 .head, .body, .feet{
     border: thin #000 solid;
     height: 150px;
@@ -21,6 +59,48 @@ body{
     bottom: -60px;
     z-index: 10;
     width: 50%;
+}
+
+.face{
+    margin: 40px auto;
+    height: 30px;
+    position: relative;
+    width: 50%;
+}
+
+.eyes, .nose, .mouth{
+    border: thin solid #000;
+    width: 20px;
+    height: 15px;
+    background-color: black;
+    border-radius: 45%;
+}
+.Leye{
+    float: left;
+}
+
+.Reye{
+    float: right;
+}
+
+.nose{
+border: thin solid #000;
+width: 20px;
+height: 15px;
+background-color: orange;
+border-radius: 45%;
+}
+
+.mouth, .nose{
+    clear: both;
+    margin: auto;
+    position: relative;
+    top: 10px;
+}
+
+.mouth{
+    margin-top: 15px;
+    width: 50px;
 }
 
 .body{
