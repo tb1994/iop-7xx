@@ -68,7 +68,7 @@ body{
     width: 50%;
 }
 
-.eyes, .nose, .mouth{
+.eyes, .mouth{
     border: thin solid #000;
     width: 20px;
     height: 15px;
